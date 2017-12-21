@@ -58,10 +58,13 @@ input#exampleInputEmail1 {
   margin-top: 15px;
 }
 
-.form-text {
+p#form-text {
   font-weight: 700;
   font-size: 14px;
   color: #C23628;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  width: 300px;
 }
 
 select.form-control {
