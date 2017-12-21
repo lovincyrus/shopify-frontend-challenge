@@ -1,0 +1,104 @@
+html, body, div, h1, p, blockquote, a, cite, img, li, section {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+* {
+  background-color: #000639;
+  font-family: Helvetica;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font: 16px;
+  text-align: center;
+  background-color: inherit;
+}
+
+.container {
+  padding-left: 0px;
+  padding-right: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-container {
+  max-width: 830px;
+  margin-top: 90px;
+}
+
+h1.title {
+  color: #FFFFFF;
+  font-size: 33px;
+  font-weight: 900;
+  text-align: left;
+}
+
+span {
+  color: #7AB55C;
+}
+
+.subscribe-title {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+h2.subscribe {
+  color: #FFFFFF;
+  font-size: 22px;
+}
+
+input#exampleInputEmail1 {
+  margin-top: 15px;
+}
+
+.form-text {
+  font-weight: 700;
+  font-size: 14px;
+  color: #C23628;
+}
+
+select.form-control {
+  font-size: 16px;
+  color: #868E96;
+  width: 225px;
+}
+
+button.btn.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  margin-top: 18px;
+  padding: 0.675rem 0.75rem;
+  width: 100%;
+  max-width: 100%;
+  font-weight: 900;
+  text-align: center;
+  color: #fff;
+  word-wrap: break-word;
+}
+
+.unsubscribe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.unsubscribe-title {
+    color: #FFFFFF;
+    text-decoration: none;
+    border-bottom: 0.5px solid #7B7B7B;
+    position: fixed;
+    bottom: 20px; 
+}
+
+a.unsubscribe-title:hover {
+    color: #FFFFFF;
+    opacity: 0.75;
+    text-decoration: none;
+}
