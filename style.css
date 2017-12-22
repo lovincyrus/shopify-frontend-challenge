@@ -29,7 +29,7 @@ body {
 }
 
 .title-container {
-  max-width: 830px;
+  /*max-width: 830px;*/
   margin-top: 90px;
 }
 
@@ -67,10 +67,14 @@ p#form-text {
   width: 300px;
 }
 
-select.form-control {
+#subscribe-container .form-control {
+  padding: 0.675rem 0.75rem;
+}
+
+#subscribe-container select.form-control {
   font-size: 16px;
   color: #868E96;
-  width: 225px;
+  height: calc(2.75rem + 4px);
 }
 
 button.btn.btn-primary {

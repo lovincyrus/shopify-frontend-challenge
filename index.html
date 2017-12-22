@@ -16,7 +16,7 @@ https://github.com/lovincyrus/shopify-frontend-challenge
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   </head>
   <body>
-  	<div class="container-fluid">
+	<div id="subscribe-container" class="container-fluid">
   		<div class="row justify-content-center">
 			<div class="col-9">
 			  	<div class="title-container">
@@ -29,11 +29,11 @@ https://github.com/lovincyrus/shopify-frontend-challenge
 
 				<form>
 					<div class="form-row">
-				      <div class="col">
+				      <div class="col-7">
 						<input id="email" class="form-control" placeholder="Enter Address">
 						<p id="form-text"></p>
 					</div>
-					<div class="col">
+					<div class="col-5">
 						<select id="interest" class="form-control">
 							<option selected>Interested in...</option>
 							<option>ENGINEERING</option>
@@ -47,7 +47,7 @@ https://github.com/lovincyrus/shopify-frontend-challenge
 				</form>
 
 				<div class="row">
-					<div class="col-9">
+					<div class="col-12">
 						<button id="sign-up" class="btn btn-primary">Sign up now</button>
 					</div>
 				</div>
@@ -60,6 +60,5 @@ https://github.com/lovincyrus/shopify-frontend-challenge
 	</div>
   </body>
 
-  <!-- <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script> -->
   <script src="validation.js"></script>
 </html>
