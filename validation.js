@@ -7,11 +7,11 @@ function checkEmail() {
 
 	if (userInput.value.match(mailformat)) {
 	    document.getElementById("form-text").innerHTML = "You have entered a valid email address!";
-	    document.getElementById('form-text').style.color = "#7AB55C";
+	    document.getElementById("form-text").style.color = "#7AB55C";
 	    console.log(userInput.value);
 	    console.log(interestedIn.value);
 	} else {
 	    document.getElementById("form-text").innerHTML = "Please enter a valid email address!";
-	    document.getElementById('form-text').style.color = "#C23628";
+	    document.getElementById("form-text").style.color = "#C23628";
 	}
 }
